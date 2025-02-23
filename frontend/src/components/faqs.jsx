@@ -14,7 +14,7 @@ const Faqs = () => {
             <ol>
               <li>Choose a tractor, lorry, or processing equipment.</li>
               <li>Enter your details.</li>
-              <li>Choose a service and pay with EcoCash.</li>
+              <li>Choose a service and pay with Mpesa.</li>
               <li>Receive your service.</li>
             </ol>
           </Accordion.Body>
@@ -36,9 +36,9 @@ const Faqs = () => {
 
         {/* Question 3 */}
         <Accordion.Item eventKey="2">
-          <Accordion.Header>Is EcoCash the only payment method?</Accordion.Header>
+          <Accordion.Header>Is Mpesa the only payment method?</Accordion.Header>
           <Accordion.Body>
-            Currently, we support EcoCash for seamless transactions. We plan to integrate more payment methods in the future.
+            Currently, we support Mpesa for seamless transactions. We plan to integrate more payment methods in the future.
           </Accordion.Body>
         </Accordion.Item>
 
