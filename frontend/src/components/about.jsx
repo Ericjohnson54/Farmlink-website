@@ -16,7 +16,7 @@ const About = () => {
         }}
       >
         <Container>
-          <h1 className="fw-bold">About Farm Link</h1>
+          <h1 className="fw-bold">About FarmLink</h1>
           <p className="lead">Empowering farmers with accessible and affordable farm machinery.</p>
         </Container>
       </div>
@@ -32,9 +32,9 @@ const About = () => {
             />
           </Col>
           <Col md={6}>
-            <h2 className="text-success fw-bold">What is Farm Link?</h2>
+            <h2 className="text-success fw-bold">What is FarmLink?</h2>
             <p>
-              Farm Link is a mobile-first platform designed to connect farmers with essential farm equipment such as tractors and harvesters. 
+              FarmLink is a mobile-first platform designed to connect farmers with essential farm equipment such as tractors and harvesters. 
               By bridging the gap between equipment owners and farmers, we aim to make agricultural machinery more accessible and efficient.
             </p>
           </Col>
@@ -54,7 +54,7 @@ const About = () => {
 
       {/* Why Choose Us Section */}
       <Container className="my-5">
-        <h2 className="text-center text-success fw-bold mb-4">Why Choose Farm Link?</h2>
+        <h2 className="text-center text-success fw-bold mb-4">Why Choose FarmLink?</h2>
         <Row>
           <Col md={4}>
             <Card className="text-center border-0 shadow-sm">
@@ -68,17 +68,12 @@ const About = () => {
             <Card className="text-center border-0 shadow-sm">
               <Card.Body>
                 <h5 className="text-success fw-bold">Secure Payments</h5>
-                <p>Reliable and safe transactions using EcoCash and other digital platforms.</p>
+                <p>Reliable and safe transactions using Mpesa services and other digital platforms.</p>
               </Card.Body>
             </Card>
           </Col>
           <Col md={4}>
-            <Card className="text-center border-0 shadow-sm">
-              <Card.Body>
-                <h5 className="text-success fw-bold">AI-Powered Recommendations</h5>
-                <p>Smart suggestions based on your farming needs.</p>
-              </Card.Body>
-            </Card>
+        
           </Col>
         </Row>
       </Container>
